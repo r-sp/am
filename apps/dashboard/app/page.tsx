@@ -1,10 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
+import IconSquircle from '@repo/ui/icons/squircle';
 
 export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Next.js",
+  title: 'Dashboard',
+  description: 'Next.js',
 };
 
 export default function Home() {
-  return <h1>Dashboard</h1>;
+  return (
+    <>
+      <IconSquircle color={{ dark: '#008040', light: '#4CE08A' }} size={32} />
+      <h1>Dashboard</h1>
+    </>
+  );
 }

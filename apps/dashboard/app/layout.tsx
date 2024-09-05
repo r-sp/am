@@ -1,11 +1,9 @@
+import BaseLayout from '@repo/ui/layouts/base';
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <BaseLayout>{children}</BaseLayout>;
 }
