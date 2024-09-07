@@ -1,9 +1,6 @@
-export interface City {
-  name: string;
-  iso: string;
-}
+import type { District } from '../types';
 
-export const cities: City[] = [
+export const cities: District[] = [
   {
     name: 'Banda Aceh',
     iso: 'ID-AC',

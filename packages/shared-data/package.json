@@ -1,0 +1,21 @@
+{
+  "name": "@repo/shared-data",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./api/cities": "./src/api/cities.ts",
+    "./api/provinces": "./src/api/provinces.ts",
+    "./api/regencies": "./src/api/regencies.ts",
+    "./api/users": "./src/api/users.ts",
+    "./core/institutes": "./src/core/institutes.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "@repo/shared-config": "workspace:*",
+    "@types/eslint": "^9.6.1",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  }
+}

@@ -116,6 +116,21 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
 
+  packages/shared-data:
+    devDependencies:
+      '@repo/shared-config':
+        specifier: workspace:*
+        version: link:../shared-config
+      '@types/eslint':
+        specifier: ^9.6.1
+        version: 9.6.1
+      eslint:
+        specifier: ^9.9.1
+        version: 9.9.1
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
+
   packages/ui:
     dependencies:
       react:

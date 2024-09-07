@@ -1,9 +1,4 @@
-export interface Province {
-  id: number;
-  iso: string;
-  name: string;
-  timezone: 'UTC+7' | 'UTC+8' | 'UTC+9';
-}
+import type { Province } from '../types';
 
 export const provinces: Province[] = [
   {

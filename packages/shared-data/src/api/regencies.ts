@@ -1,9 +1,6 @@
-export interface Regency {
-  name: string;
-  iso: string;
-}
+import type { District } from '../types';
 
-export const regencies: Regency[] = [
+export const regencies: District[] = [
   {
     name: 'Aceh Selatan',
     iso: 'ID-AC',
