@@ -95,13 +95,22 @@ export type Course = {
   location: string;
 };
 
+export type Member = {
+  id: number;
+  name: string;
+  avatar: string | URL;
+  learns: number[];
+  user_id: number;
+  provider_id: number;
+};
+
 export type Tutor = {
   id: number;
   name: string;
-  description: string;
   avatar: string | URL;
-  teach_id: number;
+  teaches: number[];
   user_id: number;
+  provider_id: number;
 };
 
 export type Syllabus = {
