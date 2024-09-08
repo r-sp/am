@@ -12,7 +12,7 @@ export const users: User[] = [
     current: {
       age: 24,
       edu: 'formal',
-      role: 'student',
+      role: 'Member',
     },
     values: {
       reason: 'to communicate with people in foreign countries and experience different cultures',
@@ -40,7 +40,7 @@ export const users: User[] = [
     current: {
       age: 32,
       edu: 'formal',
-      role: 'student',
+      role: 'Member',
     },
     values: {
       reason: 'to study abroad, pursue international opportunities, or improve job prospects',
@@ -68,7 +68,7 @@ export const users: User[] = [
     current: {
       age: 28,
       edu: 'formal',
-      role: 'teacher',
+      role: 'Tutor',
     },
     values: {
       reason: 'to better understand and appreciate foreign cultures, literature, and art',
@@ -96,7 +96,7 @@ export const users: User[] = [
     current: {
       age: 30,
       edu: 'formal',
-      role: 'teacher',
+      role: 'Tutor',
     },
     values: {
       reason: 'to challenge oneself, expand horizons, and develop new skills',
@@ -124,7 +124,7 @@ export const users: User[] = [
     current: {
       age: 25,
       edu: 'informal',
-      role: 'student',
+      role: 'Member',
     },
     values: {
       reason: 'to connect with people from different backgrounds and cultures',
@@ -152,7 +152,7 @@ export const users: User[] = [
     current: {
       age: 26,
       edu: 'formal',
-      role: 'teacher',
+      role: 'Tutor',
     },
     values: {
       reason: 'to expand business networks and conduct international trade',
@@ -180,7 +180,7 @@ export const users: User[] = [
     current: {
       age: 27,
       edu: 'formal',
-      role: 'teacher',
+      role: 'Tutor',
     },
     values: {
       reason: 'to explore the beauty and complexity of different languages',
@@ -208,7 +208,7 @@ export const users: User[] = [
     current: {
       age: 20,
       edu: 'nonformal',
-      role: 'student',
+      role: 'Member',
     },
     values: {
       reason: 'to challenge the mind and learn something new',

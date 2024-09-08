@@ -19,8 +19,9 @@ export type User = {
   };
   current: {
     age: number;
-    edu: 'formal' | 'informal' | 'nonformal';
-    role: 'student' | 'teacher';
+    edu: string;
+    role: 'Member' | 'Tutor';
+    job?: string;
   };
   values: {
     reason: string;
@@ -36,7 +37,7 @@ export type User = {
   outlink: OutLinks;
 };
 
-export type Institute = {
+export type Provider = {
   id: number;
   slug: string;
   profile: {
@@ -56,6 +57,57 @@ export type Institute = {
     postcode: number;
   };
   outlink: OutLinks;
+};
+
+export type Course = {
+  id: number;
+  slug: string;
+  name: string;
+  description: string;
+  language: 'en';
+  values: {
+    level: 'Beginner' | 'Intermediate' | 'Advanced';
+    about: string[];
+    teaches: string[];
+    prerequisite: string[];
+    scholarship: boolean;
+  };
+  enrollment: {
+    type: 'Free' | 'Paid' | 'Subscription';
+    fee: number;
+    current: number;
+    capacity: number;
+    history: number;
+  };
+  schedule: {
+    duration: string;
+    frequency: 'Daily' | 'Weekly' | 'Monthly';
+    count: number;
+    start: string | Date;
+    end: string | Date;
+  };
+  award: {
+    type: 'Certificate' | 'Certification';
+    category: 'Free' | 'Paid';
+    price: number;
+  };
+  published: string | Date;
+  location: string;
+};
+
+export type Tutor = {
+  id: number;
+  name: string;
+  description: string;
+  avatar: string | URL;
+  teach: number;
+};
+
+export type Syllabus = {
+  id: number;
+  name: string;
+  description: string;
+  time: string;
 };
 
 export type District = {

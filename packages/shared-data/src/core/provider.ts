@@ -1,6 +1,6 @@
-import type { Institute } from '../types';
+import type { Provider } from '../types';
 
-export const institutes: Institute[] = [
+export const provider: Provider[] = [
   {
     id: 1,
     slug: 'adonis-rose',
