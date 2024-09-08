@@ -100,7 +100,8 @@ export type Tutor = {
   name: string;
   description: string;
   avatar: string | URL;
-  teach: number;
+  teach_id: number;
+  user_id: number;
 };
 
 export type Syllabus = {

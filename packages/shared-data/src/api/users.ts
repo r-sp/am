@@ -69,6 +69,7 @@ export const users: User[] = [
       age: 28,
       edu: 'formal',
       role: 'Tutor',
+      job: 'Tutor at Lexical Leap',
     },
     values: {
       reason: 'to better understand and appreciate foreign cultures, literature, and art',
@@ -97,6 +98,7 @@ export const users: User[] = [
       age: 30,
       edu: 'formal',
       role: 'Tutor',
+      job: 'Tutor at Semantic Shift',
     },
     values: {
       reason: 'to challenge oneself, expand horizons, and develop new skills',
@@ -153,6 +155,7 @@ export const users: User[] = [
       age: 26,
       edu: 'formal',
       role: 'Tutor',
+      job: 'Tutor at Pronunciation Perfect',
     },
     values: {
       reason: 'to expand business networks and conduct international trade',
@@ -181,6 +184,7 @@ export const users: User[] = [
       age: 27,
       edu: 'formal',
       role: 'Tutor',
+      job: 'Tutor at Phrasal Power',
     },
     values: {
       reason: 'to explore the beauty and complexity of different languages',
