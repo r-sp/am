@@ -20,7 +20,7 @@ export type User = {
   current: {
     age: number;
     edu: string;
-    role: 'Member' | 'Tutor';
+    role: 'User' | 'Member' | 'Tutor';
     job?: string;
   };
   values: {
@@ -86,11 +86,6 @@ export type Course = {
     start: string | Date;
     end: string | Date;
   };
-  award: {
-    type: 'Certificate' | 'Certification';
-    category: 'Free' | 'Paid';
-    price: number;
-  };
   published: string | Date;
   location: string;
 };
@@ -99,7 +94,7 @@ export type Member = {
   id: number;
   name: string;
   avatar: string | URL;
-  learns: number[];
+  studies: number[];
   user_id: number;
   provider_id: number;
 };

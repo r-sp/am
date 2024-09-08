@@ -28,11 +28,6 @@ export const course: Course[] = [
       start: '2024-09-08T23:22:20.000Z',
       end: '2024-12-08T23:22:20.000Z',
     },
-    award: {
-      type: 'Certificate',
-      category: 'Free',
-      price: 0,
-    },
     published: '2024-09-08T23:22:20.000Z',
     location: 'Online',
   },
