@@ -10,9 +10,9 @@ This Turborepo includes the following packages/apps:
 
 - `website`: a [Next.js](https://nextjs.org/) app
 - `dashboard`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `website` and `dashboard` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@repo/shared-config`: includes `eslint` and `typescript` config
+- `@repo/shared-data`: includes `api` and `core` data
+- `@repo/ui`: a React component library
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
