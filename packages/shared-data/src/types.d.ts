@@ -19,7 +19,8 @@ export type User = {
   };
   current: {
     age: number;
-    edu?: string;
+    edu: 'formal' | 'informal' | 'nonformal';
+    role: 'student' | 'teacher';
   };
   values: {
     reason: string;

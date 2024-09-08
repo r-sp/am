@@ -11,6 +11,8 @@ export const users: User[] = [
     },
     current: {
       age: 24,
+      edu: 'formal',
+      role: 'student',
     },
     values: {
       reason: 'to communicate with people in foreign countries and experience different cultures',
@@ -19,7 +21,7 @@ export const users: User[] = [
       habit: ['traveling', 'language learning', 'reading and research', 'engaging in cultural activities'],
     },
     address: {
-      village: 'Pare',
+      village: 'Green',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -37,6 +39,8 @@ export const users: User[] = [
     },
     current: {
       age: 32,
+      edu: 'formal',
+      role: 'student',
     },
     values: {
       reason: 'to study abroad, pursue international opportunities, or improve job prospects',
@@ -45,7 +49,7 @@ export const users: User[] = [
       habit: ['researching international opportunities', 'networking', 'career planning'],
     },
     address: {
-      village: 'Pare',
+      village: 'Lake',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -63,6 +67,8 @@ export const users: User[] = [
     },
     current: {
       age: 28,
+      edu: 'formal',
+      role: 'teacher',
     },
     values: {
       reason: 'to better understand and appreciate foreign cultures, literature, and art',
@@ -71,7 +77,7 @@ export const users: User[] = [
       habit: ['researching cultural history', 'reading'],
     },
     address: {
-      village: 'Pare',
+      village: 'Grape',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -89,6 +95,8 @@ export const users: User[] = [
     },
     current: {
       age: 30,
+      edu: 'formal',
+      role: 'teacher',
     },
     values: {
       reason: 'to challenge oneself, expand horizons, and develop new skills',
@@ -97,7 +105,7 @@ export const users: User[] = [
       habit: ['trying new things', 'setting goals', 'traveling'],
     },
     address: {
-      village: 'Pare',
+      village: 'Pinky',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -115,6 +123,8 @@ export const users: User[] = [
     },
     current: {
       age: 25,
+      edu: 'informal',
+      role: 'student',
     },
     values: {
       reason: 'to connect with people from different backgrounds and cultures',
@@ -123,7 +133,7 @@ export const users: User[] = [
       habit: ['socializing', 'traveling'],
     },
     address: {
-      village: 'Pare',
+      village: 'Red',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -141,6 +151,8 @@ export const users: User[] = [
     },
     current: {
       age: 26,
+      edu: 'formal',
+      role: 'teacher',
     },
     values: {
       reason: 'to expand business networks and conduct international trade',
@@ -149,7 +161,7 @@ export const users: User[] = [
       habit: ['networking', 'researching international market'],
     },
     address: {
-      village: 'Pare',
+      village: 'Orange',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -167,6 +179,8 @@ export const users: User[] = [
     },
     current: {
       age: 27,
+      edu: 'formal',
+      role: 'teacher',
     },
     values: {
       reason: 'to explore the beauty and complexity of different languages',
@@ -175,7 +189,7 @@ export const users: User[] = [
       habit: ['studying linguistics', 'reading literature'],
     },
     address: {
-      village: 'Pare',
+      village: 'Corn',
       district: 'Kediri',
       province: 'East Java',
     },
@@ -193,6 +207,8 @@ export const users: User[] = [
     },
     current: {
       age: 20,
+      edu: 'nonformal',
+      role: 'student',
     },
     values: {
       reason: 'to challenge the mind and learn something new',
@@ -201,7 +217,7 @@ export const users: User[] = [
       habit: ['reading', 'solving puzzles and brain teasers'],
     },
     address: {
-      village: 'Pare',
+      village: 'Snitch',
       district: 'Kediri',
       province: 'East Java',
     },

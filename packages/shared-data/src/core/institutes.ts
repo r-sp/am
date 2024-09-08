@@ -3,7 +3,7 @@ import type { Institute } from '../types';
 export const institutes: Institute[] = [
   {
     id: 1,
-    slug: 'PhrasalPower',
+    slug: 'adonis-rose',
     profile: {
       name: 'Phrasal Power',
       description: 'Master English phrasal verbs with confidence and ease.',
@@ -28,7 +28,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 2,
-    slug: 'PronunciationPerfect',
+    slug: 'camellia-rose',
     profile: {
       name: 'Pronunciation Perfect',
       description: 'Speak English with crystal-clear pronunciation and accent reduction.',
@@ -53,7 +53,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 3,
-    slug: 'ConversationCorner',
+    slug: 'clean-pool',
     profile: {
       name: 'Conversation Corner',
       description: 'Boost your conversational skills and build fluency in English.',
@@ -77,7 +77,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 4,
-    slug: 'LinguaLift',
+    slug: 'lima-green',
     profile: {
       name: 'Lingua Lift',
       description: 'Elevate your language learning journey with expert guidance.',
@@ -102,7 +102,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 5,
-    slug: 'LexicalLeap',
+    slug: 'majorelle-blue',
     profile: {
       name: 'Lexical Leap',
       description: 'Expand your vocabulary and express yourself with precision.',
@@ -127,7 +127,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 6,
-    slug: 'PhonologicalPath',
+    slug: 'navy-purple',
     profile: {
       name: 'Phonological Path',
       description: 'Improve your sound system and pronunciation in English.',
@@ -152,7 +152,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 7,
-    slug: 'SemanticShift',
+    slug: 'semantic-shift',
     profile: {
       name: 'Semantic Shift',
       description: 'Deepen your understanding of word meanings and nuances.',
@@ -177,7 +177,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 8,
-    slug: 'SyntacticSurge',
+    slug: 'weird-green',
     profile: {
       name: 'Syntactic Surge',
       description: 'Master English grammar and sentence structure.',
@@ -202,7 +202,7 @@ export const institutes: Institute[] = [
   },
   {
     id: 9,
-    slug: 'ToungeTwisterTraining',
+    slug: 'zany-pink',
     profile: {
       name: 'Tounge Twister Training',
       description: 'Enhance your articulation and fluency through tongue twisters.',
