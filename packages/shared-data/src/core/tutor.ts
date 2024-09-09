@@ -5,7 +5,7 @@ export const tutor: Tutor[] = [
     id: 1,
     name: 'Candy Grape',
     avatar: '/candy-grape.webp',
-    teaches: [2, 9],
+    teaches: [2, 5],
     user_id: 3,
     provider_id: 5,
   },

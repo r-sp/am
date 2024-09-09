@@ -70,11 +70,13 @@ export type Course = {
     about: string[];
     teaches: string[];
     prerequisite: string[];
+    syllabus: number[];
     scholarship: boolean;
   };
   enrollment: {
     type: 'Free' | 'Paid' | 'Subscription';
     fee: number;
+    batch: number;
     current: number;
     capacity: number;
     history: number;
@@ -87,7 +89,9 @@ export type Course = {
     end: string | Date;
   };
   published: string | Date;
-  location: string;
+  modified: string | Date;
+  location_id: number;
+  provider_id: number;
 };
 
 export type Member = {
@@ -113,6 +117,7 @@ export type Syllabus = {
   name: string;
   description: string;
   time: string;
+  provider_id: number;
 };
 
 export type District = {
