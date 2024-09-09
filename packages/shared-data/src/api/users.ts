@@ -7,7 +7,7 @@ export const users: User[] = [
     profile: {
       name: 'Lush Green',
       description: 'A curious and adventurous individual with a passion for language learning and cultural exploration.',
-      avatar: '/lush-green.webp',
+      avatar: './lush-green.webp',
     },
     current: {
       age: 24,
@@ -35,7 +35,7 @@ export const users: User[] = [
     profile: {
       name: 'Glitter Lake',
       description: 'A career-oriented individual with a strong desire to gain international experience.',
-      avatar: '/glitter-lake.webp',
+      avatar: './glitter-lake.webp',
     },
     current: {
       age: 32,
@@ -63,7 +63,7 @@ export const users: User[] = [
     profile: {
       name: 'Candy Grape',
       description: 'An appreciative individual with a strong interest in foreign cultures, literature, and art.',
-      avatar: '/candy-grape.webp',
+      avatar: './candy-grape.webp',
     },
     current: {
       age: 28,
@@ -92,7 +92,7 @@ export const users: User[] = [
     profile: {
       name: 'Kinky Pinky',
       description: 'A growth-oriented individual with a strong desire to challenges and develop new skills.',
-      avatar: '/kinky-pinky.webp',
+      avatar: './kinky-pinky.webp',
     },
     current: {
       age: 30,
@@ -121,7 +121,7 @@ export const users: User[] = [
     profile: {
       name: 'Bara Red',
       description: 'A sociable and open-minded individual with a strong interest in connecting with people from different backgrounds and cultures.',
-      avatar: '/bara-red.webp',
+      avatar: './bara-red.webp',
     },
     current: {
       age: 25,
@@ -149,7 +149,7 @@ export const users: User[] = [
     profile: {
       name: 'Tart Orange',
       description: 'An entrepreneurial with a strong desire to expand business networks and conduct international trade.',
-      avatar: '/tart-orange.webp',
+      avatar: './tart-orange.webp',
     },
     current: {
       age: 26,
@@ -178,7 +178,7 @@ export const users: User[] = [
     profile: {
       name: 'Tomorokoshi Corn',
       description: 'A linguistically inclined with a strong interest in exploring the beauty and complexity of different languages.',
-      avatar: '/tomorokoshi-corn.webp',
+      avatar: './tomorokoshi-corn.webp',
     },
     current: {
       age: 27,
@@ -207,7 +207,7 @@ export const users: User[] = [
     profile: {
       name: 'Golden Snitch',
       description: 'An intellectually curious and driven individual with a strong desire to challenge their mind and learn something new.',
-      avatar: '/golden-snitch.webp',
+      avatar: './golden-snitch.webp',
     },
     current: {
       age: 20,

@@ -32,8 +32,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Pronunciation Perfect',
       description: 'Speak English with crystal-clear pronunciation and accent reduction.',
-      avatar: '/camellia-rose.avatar.webp',
-      banner: '/camellia-rose.banner.webp',
+      avatar: './camellia-rose.avatar.webp',
+      banner: './camellia-rose.banner.webp',
     },
     address: {
       village: 'Rose',
@@ -57,8 +57,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Conversation Corner',
       description: 'Boost your conversational skills and build fluency in English.',
-      avatar: '/clean-pool.avatar.webp',
-      banner: '/clean-pool.banner.webp',
+      avatar: './clean-pool.avatar.webp',
+      banner: './clean-pool.banner.webp',
     },
     address: {
       village: 'Pool',
@@ -81,8 +81,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Lingua Lift',
       description: 'Elevate your language learning journey with expert guidance.',
-      avatar: '/lima-green.avatar.webp',
-      banner: '/lima-green.banner.webp',
+      avatar: './lima-green.avatar.webp',
+      banner: './lima-green.banner.webp',
     },
     address: {
       village: 'Green',
@@ -106,8 +106,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Lexical Leap',
       description: 'Expand your vocabulary and express yourself with precision.',
-      avatar: '/majorelle-blue.avatar.webp',
-      banner: '/majorelle-blue.banner.webp',
+      avatar: './majorelle-blue.avatar.webp',
+      banner: './majorelle-blue.banner.webp',
     },
     address: {
       village: 'Blue',
@@ -131,8 +131,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Phonological Path',
       description: 'Improve your sound system and pronunciation in English.',
-      avatar: '/navy-purple.avatar.webp',
-      banner: '/navy-purple.banner.webp',
+      avatar: './navy-purple.avatar.webp',
+      banner: './navy-purple.banner.webp',
     },
     address: {
       village: 'Purple',
@@ -156,8 +156,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Semantic Shift',
       description: 'Deepen your understanding of word meanings and nuances.',
-      avatar: '/orion-pink.avatar.webp',
-      banner: '/orion-pink.banner.webp',
+      avatar: './orion-pink.avatar.webp',
+      banner: './orion-pink.banner.webp',
     },
     address: {
       village: 'Pink',
@@ -181,8 +181,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Syntactic Surge',
       description: 'Master English grammar and sentence structure.',
-      avatar: '/weird-green.avatar.webp',
-      banner: '/weird-green.banner.webp',
+      avatar: './weird-green.avatar.webp',
+      banner: './weird-green.banner.webp',
     },
     address: {
       village: 'Green',
@@ -206,8 +206,8 @@ export const provider: Provider[] = [
     profile: {
       name: 'Tounge Twister Training',
       description: 'Enhance your articulation and fluency through tongue twisters.',
-      avatar: '/zany-pink.avatar.webp',
-      banner: '/zany-pink.banner.webp',
+      avatar: './zany-pink.avatar.webp',
+      banner: './zany-pink.banner.webp',
     },
     address: {
       village: 'Pink',

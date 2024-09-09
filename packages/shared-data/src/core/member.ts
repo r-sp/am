@@ -4,7 +4,7 @@ export const member: Member[] = [
   {
     id: 1,
     name: 'Lush Green',
-    avatar: '/lush-green.webp',
+    avatar: './lush-green.webp',
     studies: [1],
     user_id: 1,
     provider_id: 1,
@@ -12,7 +12,7 @@ export const member: Member[] = [
   {
     id: 2,
     name: 'Glitter Lake',
-    avatar: '/glitter-lake.webp',
+    avatar: './glitter-lake.webp',
     studies: [1],
     user_id: 2,
     provider_id: 1,
@@ -20,7 +20,7 @@ export const member: Member[] = [
   {
     id: 3,
     name: 'Bara Red',
-    avatar: '/bara-red.webp',
+    avatar: './bara-red.webp',
     studies: [1],
     user_id: 5,
     provider_id: 1,
@@ -28,7 +28,7 @@ export const member: Member[] = [
   {
     id: 4,
     name: 'Golden Snitch',
-    avatar: '/golden-snitch.webp',
+    avatar: './golden-snitch.webp',
     studies: [1],
     user_id: 8,
     provider_id: 1,
