@@ -3,12 +3,12 @@ import type { Provider } from '../types';
 export const provider: Provider[] = [
   {
     id: 1,
-    slug: 'adonis-rose',
+    slug: 'adonis-yellow',
     profile: {
       name: 'Phrasal Power',
       description: 'Master English phrasal verbs with confidence and ease.',
-      avatar: './adonis-rose-1x1.webp',
-      banner: './adonis-rose-21x9.webp',
+      avatar: './adonis-yellow-1x1.webp',
+      banner: './adonis-yellow-21x9.webp',
     },
     address: {
       village: 'Rose',
