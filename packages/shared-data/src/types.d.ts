@@ -124,8 +124,8 @@ export type Location = {
   id: number;
   type: 'Office' | 'Course' | 'Camp' | 'Boarding House' | 'Homestay' | 'Hostel';
   name: string;
-  maps: string;
-  image: string[] | URL[];
+  images: string[] | URL[];
+  maps_id: string;
   provider_id: number;
 };
 
