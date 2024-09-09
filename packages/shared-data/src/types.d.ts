@@ -120,6 +120,15 @@ export type Syllabus = {
   provider_id: number;
 };
 
+export type Location = {
+  id: number;
+  type: 'Office' | 'Course' | 'Camp' | 'Boarding House' | 'Homestay' | 'Hostel';
+  name: string;
+  maps: string;
+  image: string[] | URL[];
+  provider_id: number;
+};
+
 export type District = {
   name: string;
   iso: string;

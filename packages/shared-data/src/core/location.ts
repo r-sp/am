@@ -1,0 +1,68 @@
+import type { Location } from '../types';
+
+export const location: Location[] = [
+  {
+    id: 1,
+    type: 'Course',
+    name: 'Vocabulary Master',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/majorelle-blue.banner.webp', '/majorelle-blue.banner.webp', '/majorelle-blue.banner.webp'],
+    provider_id: 5,
+  },
+  {
+    id: 2,
+    type: 'Course',
+    name: 'Writing Master',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/majorelle-blue.banner.webp', '/majorelle-blue.banner.webp', '/majorelle-blue.banner.webp'],
+    provider_id: 5,
+  },
+  {
+    id: 3,
+    type: 'Course',
+    name: 'Idoms and Expressions Center',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/orion-pink.banner.webp', '/orion-pink.banner.webp', '/orion-pink.banner.webp'],
+    provider_id: 7,
+  },
+  {
+    id: 4,
+    type: 'Course',
+    name: 'Listening Center',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/orion-pink.banner.webp', '/orion-pink.banner.webp', '/orion-pink.banner.webp'],
+    provider_id: 7,
+  },
+  {
+    id: 5,
+    type: 'Course',
+    name: 'Pronunciation Labs',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/camellia-rose.banner.webp', '/camellia-rose.banner.webp', '/camellia-rose.banner.webp'],
+    provider_id: 2,
+  },
+  {
+    id: 6,
+    type: 'Course',
+    name: 'Speaking Labs',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/camellia-rose.banner.webp', '/camellia-rose.banner.webp', '/camellia-rose.banner.webp'],
+    provider_id: 2,
+  },
+  {
+    id: 7,
+    type: 'Course',
+    name: 'Phrasal Room',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/adonis-rose.banner.webp', '/adonis-rose.banner.webp', '/adonis-rose.banner.webp'],
+    provider_id: 1,
+  },
+  {
+    id: 8,
+    type: 'Course',
+    name: 'Reading Room',
+    maps: 'YVCoqqC4YqS8DxTT6',
+    image: ['/adonis-rose.banner.webp', '/adonis-rose.banner.webp', '/adonis-rose.banner.webp'],
+    provider_id: 1,
+  },
+];

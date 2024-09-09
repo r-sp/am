@@ -32,13 +32,13 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 5,
+    location_id: 1,
     provider_id: 5,
   },
   {
     id: 2,
     slug: 'writing-skills',
-    name: 'Writing Skilss',
+    name: 'Writing Skills',
     description: 'Learn to write effectively in English with this comprehensive course.',
     language: 'en',
     values: {
@@ -66,7 +66,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 5,
+    location_id: 2,
     provider_id: 5,
   },
   {
@@ -100,7 +100,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 7,
+    location_id: 3,
     provider_id: 7,
   },
   {
@@ -134,7 +134,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 7,
+    location_id: 4,
     provider_id: 7,
   },
   {
@@ -168,7 +168,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 2,
+    location_id: 5,
     provider_id: 2,
   },
   {
@@ -202,7 +202,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 2,
+    location_id: 6,
     provider_id: 2,
   },
   {
@@ -236,7 +236,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 1,
+    location_id: 7,
     provider_id: 1,
   },
   {
@@ -270,7 +270,7 @@ export const course: Course[] = [
     },
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 1,
+    location_id: 8,
     provider_id: 1,
   },
 ];
