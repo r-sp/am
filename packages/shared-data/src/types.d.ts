@@ -116,7 +116,7 @@ export type Syllabus = {
   id: number;
   name: string;
   description: string;
-  time: string;
+  duration: string;
   provider_id: number;
 };
 
