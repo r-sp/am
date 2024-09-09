@@ -130,12 +130,14 @@ export type Location = {
 };
 
 export type District = {
-  name: string;
   iso: string;
+  name: string;
+  city?: string[];
+  regency?: string[];
+  timezone?: 'UTC+7' | 'UTC+8' | 'UTC+9';
 };
 
 export type Province = {
-  id: number;
   iso: string;
   name: string;
   timezone: 'UTC+7' | 'UTC+8' | 'UTC+9';

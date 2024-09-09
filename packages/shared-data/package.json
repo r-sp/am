@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./api/cities": "./src/api/cities.ts",
-    "./api/provinces": "./src/api/provinces.ts",
-    "./api/regencies": "./src/api/regencies.ts",
+    "./api/district": "./src/api/district.ts",
     "./api/users": "./src/api/users.ts",
     "./core/course": "./src/core/course.ts",
     "./core/member": "./src/core/member.ts",
