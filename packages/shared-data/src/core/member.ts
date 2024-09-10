@@ -7,7 +7,6 @@ export const member: Member[] = [
     avatar: './lush-green-1x1.webp',
     studies: [1],
     user_id: 1,
-    provider_id: 1,
   },
   {
     id: 2,
@@ -15,7 +14,6 @@ export const member: Member[] = [
     avatar: './glitter-lake-1x1.webp',
     studies: [1],
     user_id: 2,
-    provider_id: 1,
   },
   {
     id: 3,
@@ -23,7 +21,6 @@ export const member: Member[] = [
     avatar: './bara-red-1x1.webp',
     studies: [1],
     user_id: 5,
-    provider_id: 1,
   },
   {
     id: 4,
@@ -31,6 +28,5 @@ export const member: Member[] = [
     avatar: './golden-snitch-1x1.webp',
     studies: [1],
     user_id: 8,
-    provider_id: 1,
   },
 ];

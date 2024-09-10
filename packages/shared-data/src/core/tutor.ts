@@ -7,7 +7,6 @@ export const tutor: Tutor[] = [
     avatar: './candy-grape-1x1.webp',
     teaches: [2, 5],
     user_id: 3,
-    provider_id: 5,
   },
   {
     id: 2,
@@ -15,7 +14,6 @@ export const tutor: Tutor[] = [
     avatar: './kinky-pinky-1x1.webp',
     teaches: [9, 7],
     user_id: 4,
-    provider_id: 7,
   },
   {
     id: 3,
@@ -23,7 +21,6 @@ export const tutor: Tutor[] = [
     avatar: './tart-orange-1x1.webp',
     teaches: [3, 6],
     user_id: 6,
-    provider_id: 2,
   },
   {
     id: 4,
@@ -31,6 +28,5 @@ export const tutor: Tutor[] = [
     avatar: './tomorokoshi-corn-1x1.webp',
     teaches: [8, 4],
     user_id: 7,
-    provider_id: 1,
   },
 ];

@@ -88,6 +88,7 @@ export type Course = {
     start: string | Date;
     end: string | Date;
   };
+  image: string | URL;
   published: string | Date;
   modified: string | Date;
   location_id: number;
@@ -100,7 +101,6 @@ export type Member = {
   avatar: string | URL;
   studies: number[];
   user_id: number;
-  provider_id: number;
 };
 
 export type Tutor = {
@@ -109,7 +109,6 @@ export type Tutor = {
   avatar: string | URL;
   teaches: number[];
   user_id: number;
-  provider_id: number;
 };
 
 export type Syllabus = {
@@ -132,13 +131,7 @@ export type Location = {
 export type District = {
   iso: string;
   name: string;
-  city?: string[];
-  regency?: string[];
-  timezone?: 'UTC+7' | 'UTC+8' | 'UTC+9';
-};
-
-export type Province = {
-  iso: string;
-  name: string;
+  city: string[];
+  regency: string[];
   timezone: 'UTC+7' | 'UTC+8' | 'UTC+9';
 };
