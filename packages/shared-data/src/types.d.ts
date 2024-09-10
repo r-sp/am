@@ -129,6 +129,28 @@ export type Camp = {
   provider_id: number;
 };
 
+export type Classroom = {
+  id: number;
+  name: string;
+  schedule: {
+    name: string;
+    time: string | Date;
+    tutor_id: number;
+    syllabus_id: number;
+  }[];
+  classmate: number[];
+  course_id: number;
+  provider_id: number;
+};
+
+export type Classes = {
+  id: number;
+  name: string;
+  description: string;
+  course_id: number[];
+  member_id: number;
+};
+
 export type Location = {
   id: number;
   name: string;
