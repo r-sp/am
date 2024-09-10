@@ -33,7 +33,7 @@ export const course: Course[] = [
     image: './majorelle-blue-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 1,
+    location_id: 5,
     provider_id: 5,
   },
   {
@@ -68,7 +68,7 @@ export const course: Course[] = [
     image: './majorelle-blue-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 2,
+    location_id: 5,
     provider_id: 5,
   },
   {
@@ -103,7 +103,7 @@ export const course: Course[] = [
     image: './orion-pink-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 3,
+    location_id: 7,
     provider_id: 7,
   },
   {
@@ -138,7 +138,7 @@ export const course: Course[] = [
     image: './orion-pink-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 4,
+    location_id: 7,
     provider_id: 7,
   },
   {
@@ -173,7 +173,7 @@ export const course: Course[] = [
     image: './camellia-rose-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 5,
+    location_id: 2,
     provider_id: 2,
   },
   {
@@ -208,7 +208,7 @@ export const course: Course[] = [
     image: './camellia-rose-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 6,
+    location_id: 2,
     provider_id: 2,
   },
   {
@@ -243,7 +243,7 @@ export const course: Course[] = [
     image: './adonis-yellow-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 7,
+    location_id: 1,
     provider_id: 1,
   },
   {
@@ -278,7 +278,7 @@ export const course: Course[] = [
     image: './adonis-yellow-16x9.webp',
     modified: '2024-09-09',
     published: '2021-05-27',
-    location_id: 8,
+    location_id: 1,
     provider_id: 1,
   },
 ];

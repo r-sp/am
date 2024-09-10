@@ -119,11 +119,20 @@ export type Syllabus = {
   provider_id: number;
 };
 
+export type Camp = {
+  id: number;
+  name: string;
+  member: number[];
+  capacity: number;
+  image: string | URL;
+  location_id: number;
+  provider_id: number;
+};
+
 export type Location = {
   id: number;
-  type: 'Office' | 'Course' | 'Camp' | 'Boarding House' | 'Homestay' | 'Hostel';
   name: string;
-  images: string[] | URL[];
+  image: string | URL;
   maps_id: string;
   provider_id: number;
 };

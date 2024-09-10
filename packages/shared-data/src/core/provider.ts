@@ -11,12 +11,12 @@ export const provider: Provider[] = [
       banner: './adonis-yellow-21x9.webp',
     },
     address: {
-      village: 'Rose',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 24,
       street: {
-        name: 'Adonis',
+        name: 'Adonis Yellow',
         number: 16,
       },
     },
@@ -36,12 +36,12 @@ export const provider: Provider[] = [
       banner: './camellia-rose-21x9.webp',
     },
     address: {
-      village: 'Rose',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 48,
       street: {
-        name: 'Camellia',
+        name: 'Camellia Rose',
         number: 32,
       },
     },
@@ -61,12 +61,12 @@ export const provider: Provider[] = [
       banner: './clean-pool-21x9.webp',
     },
     address: {
-      village: 'Pool',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 72,
       street: {
-        name: 'Clean',
+        name: 'Clean Pool',
         number: 48,
       },
     },
@@ -85,12 +85,12 @@ export const provider: Provider[] = [
       banner: './lima-green-21x9.webp',
     },
     address: {
-      village: 'Green',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 96,
       street: {
-        name: 'Lima',
+        name: 'Lima Green',
         number: 64,
       },
     },
@@ -110,12 +110,12 @@ export const provider: Provider[] = [
       banner: './majorelle-blue-21x9.webp',
     },
     address: {
-      village: 'Blue',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 120,
       street: {
-        name: 'Majorelle',
+        name: 'Majorelle Blue',
         number: 80,
       },
     },
@@ -135,12 +135,12 @@ export const provider: Provider[] = [
       banner: './navy-purple-21x9.webp',
     },
     address: {
-      village: 'Purple',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 144,
       street: {
-        name: 'Navy',
+        name: 'Navy Purple',
         number: 96,
       },
     },
@@ -160,12 +160,12 @@ export const provider: Provider[] = [
       banner: './orion-pink-21x9.webp',
     },
     address: {
-      village: 'Pink',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 168,
       street: {
-        name: 'Orion',
+        name: 'Orion Pink',
         number: 112,
       },
     },
@@ -185,12 +185,12 @@ export const provider: Provider[] = [
       banner: './weird-green-21x9.webp',
     },
     address: {
-      village: 'Green',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 192,
       street: {
-        name: 'Weird',
+        name: 'Weird Green',
         number: 128,
       },
     },
@@ -210,12 +210,12 @@ export const provider: Provider[] = [
       banner: './zany-pink-21x9.webp',
     },
     address: {
-      village: 'Pink',
+      village: 'Kampung Inggris',
       district: 'Kediri Regency',
       province: 'East Java',
       postcode: 216,
       street: {
-        name: 'Zany',
+        name: 'Zany Pink',
         number: 144,
       },
     },
