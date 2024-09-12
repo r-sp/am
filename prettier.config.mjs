@@ -1,12 +1,12 @@
-/** @type {import('prettier').Config} */
+/** @type {import("prettier").Config} */
 
 const config = {
-  arrowParens: 'always',
-  printWidth: 150,
-  singleQuote: true,
+  arrowParens: "always",
+  printWidth: 96,
+  singleQuote: false,
   jsxSingleQuote: false,
   semi: true,
-  trailingComma: 'all',
+  trailingComma: "all",
   tabWidth: 2,
 };
 

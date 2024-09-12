@@ -1,22 +1,15 @@
 {
-  "name": "kb-turbo",
+  "name": "kinetic-blueprint",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache",
+    "clean": "git clean -xdf node_modules"
   },
   "devDependencies": {
-    "@eslint/js": "^9.10.0",
-    "@total-typescript/ts-reset": "^0.6.1",
-    "@types/eslint__js": "^8.42.3",
-    "@types/node": "^22.5.2",
-    "eslint": "^9.10.0",
     "prettier": "^3.3.3",
-    "turbo": "^2.1.1",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.5.0"
+    "turbo": "^2.1.1"
   },
   "packageManager": "pnpm@9.10.0",
   "engines": {
