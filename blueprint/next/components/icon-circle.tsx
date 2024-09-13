@@ -7,7 +7,7 @@ interface Props {
 
 export default function IconCircle({ className, light, dark, size }: Props) {
   return (
-    <div className={className}>
+    <div className={className} aria-hidden="true">
       <svg
         width={size}
         height={size}

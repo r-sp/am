@@ -28,6 +28,6 @@ type Notice = {
 };
 
 export const notice: Notice = {
-  name: "404 Error Not Found",
+  name: "404 Page Not Found",
   text: "Return to Home",
 };

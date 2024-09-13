@@ -1,7 +1,11 @@
 ---
-const current = new Date()
+const current = new Date();
+const text = "Current date:";
 ---
 
-<footer>
-    <time datetime={current.toISOString()}>{current.toString()}</time>
+<footer class="info">
+  <p class="date">
+    {text}
+    <time class="iso" datetime={current.toISOString()}>{current.toString()}</time>
+  </p>
 </footer>

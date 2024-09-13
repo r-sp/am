@@ -11,7 +11,7 @@ export default function NotFound() {
     <article>
       <h1>{notice.name}</h1>
       <p>
-        <Link href="/" className="cta">
+        <Link href="/" className="button">
           {notice.text}
         </Link>
       </p>

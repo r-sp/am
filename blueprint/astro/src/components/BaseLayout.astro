@@ -5,29 +5,29 @@ import Footer from "./Footer.astro";
 import "@kb/style";
 
 interface Props {
-    title: string;
-	useTitle?: boolean;
+  title: string;
+  useTitle?: boolean;
 }
 
 const { title, useTitle = true } = Astro.props;
 
-const pageTitle = useTitle ? `${title} - Astro` : "Astro"
+const pageTitle = useTitle ? `${title} - Astro` : "Astro";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>{pageTitle}</title>
-		<meta name="description" content="Kinetic Blueprint with Astro" />
-		<link rel="icon" type="image/svg+xml" href="/icon.svg" />
-	</head>
-	<body>
-		<Header/>
-		<main>
-			<slot />
-		</main>
-		<Footer/>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+    <meta name="description" content="Kinetic Blueprint with Astro" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  </head>
+  <body>
+    <Header />
+    <main id="content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -3,22 +3,24 @@ import IconCircle from "./IconCircle.astro";
 import { menu } from "@kb/data";
 ---
 
-<header>
-    <nav>
-        <a href="/" class="logo">
-            <IconCircle className="icon" light="#4EC0ED" dark="#0074E0" size={32} />
-            <span class="sr-only">Homepage</span>
-        </a>
-        <ul class="links">
-            {menu.map((item)=> (
-                <li class="item">
-                    {Astro.url.pathname === item.slug ? (
-                        <a href={item.slug} class="link" aria-current="page">{item.name}</a>
-                    ) : (
-                        <a href={item.slug} class="link">{item.name}</a>
-                    )}
-                </li>
-            ))}
-        </ul>
-    </nav>
+<header class="navbar">
+  <a href="/" class="logo" tabindex="-1">
+    <IconCircle className="icon" light="#4EC0ED" dark="#0074E0" size={32} />
+    <span class="sr-only">Astro</span>
+  </a>
+  <nav class="links">
+    {
+      menu.map((item) =>
+        Astro.url.pathname === item.slug ? (
+          <a href={item.slug} class="link" aria-current="page">
+            {item.name}
+          </a>
+        ) : (
+          <a href={item.slug} class="link">
+            {item.name}
+          </a>
+        ),
+      )
+    }
+  </nav>
 </header>
