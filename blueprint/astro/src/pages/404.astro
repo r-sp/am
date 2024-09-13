@@ -1,0 +1,11 @@
+---
+import BaseLayout from "~/components/BaseLayout.astro";
+import { notice } from "@kb/data";
+---
+
+<BaseLayout title={notice.name}>
+    <article>
+        <h1>{notice.name}</h1>
+        <p><a href="/" class="cta">{notice.text}</a></p>
+    </article>
+</BaseLayout>

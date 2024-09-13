@@ -1,10 +1,17 @@
 ---
+import Header from "./Header.astro";
+import Footer from "./Footer.astro";
+
+import "@kb/style";
+
 interface Props {
     title: string;
-    description: string;
+	useTitle?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, useTitle = true } = Astro.props;
+
+const pageTitle = useTitle ? `${title} - Astro` : "Astro"
 ---
 
 <!doctype html>
@@ -12,11 +19,15 @@ const { title, description } = Astro.props;
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>{title}</title>
-		<meta name="description" content={description} />
+		<title>{pageTitle}</title>
+		<meta name="description" content="Kinetic Blueprint with Astro" />
 		<link rel="icon" type="image/svg+xml" href="/icon.svg" />
 	</head>
 	<body>
-		<slot />
+		<Header/>
+		<main>
+			<slot />
+		</main>
+		<Footer/>
 	</body>
 </html>

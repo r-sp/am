@@ -8,6 +8,8 @@
     "clean": "git clean -xdf .cache .astro .turbo node_modules"
   },
   "dependencies": {
+    "@kb/data": "workspace:*",
+    "@kb/style": "workspace:*",
     "astro": "^4.15.4"
   }
 }
