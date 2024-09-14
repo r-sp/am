@@ -1,5 +1,27 @@
 {
   "name": "@kb/style",
   "private": true,
-  "main": "main.css"
+  "main": "main.css",
+  "scripts": {
+    "dev": "postcss base.css -o main.css --no-map -w",
+    "build": "postcss base.css -o main.css --no-map"
+  },
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 4
+      },
+      "autoprefixer": {},
+      "cssnano": {}
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.45",
+    "postcss-cli": "^11.0.0",
+    "postcss-load-config": "^6.0.1",
+    "postcss-preset-env": "^10.0.3"
+  }
 }

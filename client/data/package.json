@@ -2,6 +2,7 @@
   "name": "@kb/data",
   "private": true,
   "main": "shared.ts",
+  "type": "module",
   "devDependencies": {
     "typescript": "^5.6.2"
   }
