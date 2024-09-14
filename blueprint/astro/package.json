@@ -8,6 +8,7 @@
     "clean": "git clean -xdf .cache .astro .turbo node_modules"
   },
   "dependencies": {
+    "@astrojs/node": "^8.3.3",
     "@kb/data": "workspace:*",
     "@kb/style": "workspace:*",
     "astro": "^4.15.4"

@@ -7,18 +7,13 @@ type Menu = {
 export const menu: Menu[] = [
   {
     key: 1,
-    name: "Home",
-    slug: "/",
-  },
-  {
-    key: 2,
-    name: "About",
+    name: "Get Started",
     slug: "/about",
   },
   {
-    key: 3,
-    name: "Docs",
-    slug: "/docs",
+    key: 2,
+    name: "Playground",
+    slug: "/play",
   },
 ];
 
