@@ -1,0 +1,20 @@
+---
+import BaseLayout from "~/components/BaseLayout.astro";
+import { article } from "@kb/data";
+---
+
+<BaseLayout title="Blog">
+  <article>
+    <h1>Blog</h1>
+    {
+      article.map((post) => (
+        <section id={`post-${post.id}`} aria-label={post.title}>
+          <a href={post.url} class="article">
+            <h2 class="title">{post.title}</h2>
+            <p class="description">{post.description}</p>
+          </a>
+        </section>
+      ))
+    }
+  </article>
+</BaseLayout>
