@@ -1,29 +1,16 @@
 ---
-const content = "This should appear inside drawer";
+import IconMenu from "./IconMenu.astro";
+import IconClose from "./IconClose.astro";
 ---
 
 <button class="btn" id="toggle-drawer">
-  <svg
-    aria-hidden="true"
-    width="32"
-    height="32"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M6 23C6 22.4477 6.44772 22 7 22H25C25.5523 22 26 22.4477 26 23C26 23.5523 25.5523 24 25 24H7C6.44772 24 6 23.5523 6 23Z"
-      fill="currentColor"></path>
-    <path
-      d="M6 16C6 15.4477 6.44772 15 7 15H25C25.5523 15 26 15.4477 26 16C26 16.5523 25.5523 17 25 17H7C6.44772 17 6 16.5523 6 16Z"
-      fill="currentColor"></path>
-    <path
-      d="M6 9C6 8.44772 6.44772 8 7 8H25C25.5523 8 26 8.44772 26 9C26 9.55228 25.5523 10 25 10H7C6.44772 10 6 9.55228 6 9Z"
-      fill="currentColor"></path>
-  </svg>
+  <IconMenu className="icon" color="currentColor" size={32} />
 </button>
 <aside aria-hidden="true" aria-modal="false" class="is-close" id="drawer">
-  {content}
+  <button class="btn" id="close-drawer">
+    <IconClose className="icon" color="currentColor" size={32} />
+  </button>
+  <section class="content-drawer"></section>
 </aside>
 <div aria-hidden="true" class="is-hidden" id="backdrop" tabindex="-1"></div>
 
@@ -31,6 +18,7 @@ const content = "This should appear inside drawer";
   const drawer = document.getElementById("drawer");
   const backdrop = document.getElementById("backdrop");
   const toggle = document.getElementById("toggle-drawer");
+  const closeBtn = document.getElementById("close-drawer");
 
   const btnState = document.createElement("span");
   btnState.setAttribute("class", "sr-only");
@@ -44,6 +32,7 @@ const content = "This should appear inside drawer";
     drawer?.setAttribute("aria-modal", "true");
     toggle?.removeEventListener("click", openDrawer);
     toggle?.addEventListener("click", closeDrawer);
+    closeBtn?.addEventListener("click", closeDrawer);
     backdrop?.addEventListener("click", closeDrawer);
     backdrop?.classList.remove("is-hidden");
     backdrop?.classList.add("is-visible");
@@ -59,6 +48,7 @@ const content = "This should appear inside drawer";
     drawer?.setAttribute("aria-modal", "false");
     toggle?.removeEventListener("click", closeDrawer);
     toggle?.addEventListener("click", openDrawer);
+    closeBtn?.removeEventListener("click", closeDrawer);
     backdrop?.removeEventListener("click", closeDrawer);
     backdrop?.classList.remove("is-visible");
     backdrop?.classList.add("is-hidden");
