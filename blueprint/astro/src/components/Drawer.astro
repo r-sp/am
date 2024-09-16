@@ -1,0 +1,71 @@
+---
+const content = "This should appear inside drawer";
+---
+
+<button class="btn" id="toggle-drawer">
+  <svg
+    aria-hidden="true"
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M6 23C6 22.4477 6.44772 22 7 22H25C25.5523 22 26 22.4477 26 23C26 23.5523 25.5523 24 25 24H7C6.44772 24 6 23.5523 6 23Z"
+      fill="currentColor"></path>
+    <path
+      d="M6 16C6 15.4477 6.44772 15 7 15H25C25.5523 15 26 15.4477 26 16C26 16.5523 25.5523 17 25 17H7C6.44772 17 6 16.5523 6 16Z"
+      fill="currentColor"></path>
+    <path
+      d="M6 9C6 8.44772 6.44772 8 7 8H25C25.5523 8 26 8.44772 26 9C26 9.55228 25.5523 10 25 10H7C6.44772 10 6 9.55228 6 9Z"
+      fill="currentColor"></path>
+  </svg>
+</button>
+<aside aria-hidden="true" aria-modal="false" class="is-close" id="drawer">
+  {content}
+</aside>
+<div aria-hidden="true" class="is-hidden" id="backdrop" tabindex="-1"></div>
+
+<script>
+  const drawer = document.getElementById("drawer");
+  const backdrop = document.getElementById("backdrop");
+  const toggle = document.getElementById("toggle-drawer");
+
+  const btnState = document.createElement("span");
+  btnState.setAttribute("class", "sr-only");
+  btnState.textContent = "Open drawer";
+  toggle?.appendChild(btnState);
+
+  function openDrawer() {
+    drawer?.classList.remove("is-close");
+    drawer?.classList.add("is-open");
+    drawer?.setAttribute("aria-hidden", "false");
+    drawer?.setAttribute("aria-modal", "true");
+    toggle?.removeEventListener("click", openDrawer);
+    toggle?.addEventListener("click", closeDrawer);
+    backdrop?.addEventListener("click", closeDrawer);
+    backdrop?.classList.remove("is-hidden");
+    backdrop?.classList.add("is-visible");
+    backdrop?.setAttribute("aria-hidden", "false");
+    backdrop?.setAttribute("tabindex", "0");
+    btnState.textContent = "Close drawer";
+  }
+
+  function closeDrawer() {
+    drawer?.classList.remove("is-open");
+    drawer?.classList.add("is-close");
+    drawer?.setAttribute("aria-hidden", "true");
+    drawer?.setAttribute("aria-modal", "false");
+    toggle?.removeEventListener("click", closeDrawer);
+    toggle?.addEventListener("click", openDrawer);
+    backdrop?.removeEventListener("click", closeDrawer);
+    backdrop?.classList.remove("is-visible");
+    backdrop?.classList.add("is-hidden");
+    backdrop?.setAttribute("aria-hidden", "true");
+    backdrop?.setAttribute("tabindex", "-1");
+    btnState.textContent = "Open drawer";
+  }
+
+  toggle?.addEventListener("click", openDrawer);
+</script>
