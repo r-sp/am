@@ -48,6 +48,7 @@ import IconClose from "./IconClose.astro";
     drawer?.setAttribute("aria-modal", "false");
     toggle?.removeEventListener("click", closeDrawer);
     toggle?.addEventListener("click", openDrawer);
+    closeBtn?.focus();
     closeBtn?.removeEventListener("click", closeDrawer);
     backdrop?.removeEventListener("click", closeDrawer);
     backdrop?.classList.remove("is-visible");
