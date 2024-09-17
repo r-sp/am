@@ -1,12 +1,19 @@
 "use client";
 
 import IconCircle from "./icon-circle";
+import IconMenu from "./icon-menu";
+import Drawer from "./drawer";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { menu } from "@kb/data";
 
 export default function Header() {
   const currentPath = usePathname();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
   return (
     <header className="navbar">
       <Link href="/" className="logo" tabIndex={-1}>
@@ -26,6 +33,10 @@ export default function Header() {
           ),
         )}
       </nav>
+      <button className="btn" id="toggle-button" onClick={toggleDrawer}>
+        <IconMenu className="icon" color="currentColor" size={32} />
+      </button>
+      <Drawer isOpen={isDrawerOpen} onClose={toggleDrawer} />
     </header>
   );
 }
