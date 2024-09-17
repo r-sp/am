@@ -14,7 +14,7 @@ export default function Layout({ title, useTitle = true, children }: Props) {
   return (
     <>
       <Header />
-      <main>
+      <main id="content">
         <Outlet />
         {children}
       </main>
