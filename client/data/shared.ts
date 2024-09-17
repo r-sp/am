@@ -65,3 +65,27 @@ export const article: Article[] = [
     description: "Run JavaScript Everywhere",
   },
 ];
+
+type Blueprint = {
+  id: number;
+  url: string;
+  name: string;
+};
+
+export const blueprint: Blueprint[] = [
+  {
+    id: 1,
+    url: "http://localhost:2001",
+    name: "Astro",
+  },
+  {
+    id: 2,
+    url: "http://localhost:2002",
+    name: "Next.js",
+  },
+  {
+    id: 3,
+    url: "http://localhost:2003",
+    name: "React",
+  },
+];

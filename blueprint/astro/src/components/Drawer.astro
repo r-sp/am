@@ -1,6 +1,7 @@
 ---
 import IconMenu from "./IconMenu.astro";
 import IconClose from "./IconClose.astro";
+import { blueprint } from "@kb/data";
 ---
 
 <button class="btn" id="toggle-drawer">
@@ -10,7 +11,15 @@ import IconClose from "./IconClose.astro";
   <button class="btn" id="close-drawer">
     <IconClose className="icon" color="currentColor" size={32} />
   </button>
-  <section class="content-drawer"></section>
+  <nav class="content-drawer">
+    {
+      blueprint.map((project) => (
+        <a href={project.url} class="project">
+          {project.name}
+        </a>
+      ))
+    }
+  </nav>
 </aside>
 <div aria-hidden="true" class="is-hidden" id="backdrop" tabindex="-1"></div>
 
