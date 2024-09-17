@@ -1,7 +1,7 @@
 ---
 import IconMenu from "./IconMenu.astro";
 import IconClose from "./IconClose.astro";
-import { blueprint } from "@kb/data";
+import { drawer } from "@kb/data";
 ---
 
 <button class="btn" id="toggle-drawer">
@@ -13,9 +13,9 @@ import { blueprint } from "@kb/data";
   </button>
   <nav class="content-drawer">
     {
-      blueprint.map((project) => (
-        <a href={project.url} class="project">
-          {project.name}
+      drawer.map((menu) => (
+        <a href={menu.slug} class="menu">
+          {menu.name}
         </a>
       ))
     }

@@ -66,26 +66,25 @@ export const article: Article[] = [
   },
 ];
 
-type Blueprint = {
-  id: number;
-  url: string;
-  name: string;
-};
-
-export const blueprint: Blueprint[] = [
+export const drawer: Menu[] = [
   {
-    id: 1,
-    url: "http://localhost:2001",
-    name: "Astro",
+    key: 1,
+    slug: "/",
+    name: "Home",
   },
   {
-    id: 2,
-    url: "http://localhost:2002",
-    name: "Next.js",
+    key: 2,
+    slug: "/about",
+    name: "About",
   },
   {
-    id: 3,
-    url: "http://localhost:2003",
-    name: "React",
+    key: 3,
+    slug: "/blog",
+    name: "Blog",
+  },
+  {
+    key: 4,
+    slug: "/show",
+    name: "Showcase",
   },
 ];
