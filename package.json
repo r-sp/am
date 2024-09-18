@@ -1,6 +1,12 @@
 {
   "name": "kinetic-blueprint",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.x",
+    "pnpm": "9.x"
+  },
+  "packageManager": "pnpm@9.10.0",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -10,9 +16,5 @@
   "devDependencies": {
     "prettier": "^3.3.3",
     "turbo": "^2.1.2"
-  },
-  "packageManager": "pnpm@9.10.0",
-  "engines": {
-    "node": ">=22.8.0"
   }
 }
