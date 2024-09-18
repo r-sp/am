@@ -2,7 +2,7 @@ import Layout from "~/components/layout";
 
 export default function About() {
   return (
-    <Layout title="About">
+    <Layout title="Get Started">
       <article>
         <h1>Get Started with React</h1>
         <p>Create a new project with npm</p>
