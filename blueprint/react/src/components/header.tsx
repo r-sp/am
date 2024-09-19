@@ -3,7 +3,7 @@ import IconMenu from "./icon-menu";
 import Drawer from "./drawer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { menu } from "@kb/data";
+import { navMenu } from "@kb/data";
 
 export default function Header() {
   const currentPath = new URL(import.meta.url).pathname;
@@ -19,7 +19,7 @@ export default function Header() {
         <span className="sr-only">React</span>
       </Link>
       <nav className="links">
-        {menu.map((item) =>
+        {navMenu.map((item) =>
           currentPath === item.slug ? (
             <Link to={item.slug} key={item.key} className="link" aria-current="page">
               {item.name}

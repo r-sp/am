@@ -1,6 +1,6 @@
 ---
 import IconCircle from "./IconCircle.astro";
-import { menu } from "@kb/data";
+import { navMenu } from "@kb/data";
 ---
 
 <header class="navbar">
@@ -10,7 +10,7 @@ import { menu } from "@kb/data";
   </a>
   <nav class="links">
     {
-      menu.map((item) =>
+      navMenu.map((item) =>
         Astro.url.pathname === item.slug ? (
           <a href={item.slug} class="link" aria-current="page">
             {item.name}

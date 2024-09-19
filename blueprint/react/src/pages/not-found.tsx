@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import Layout from "~/components/layout";
-import { notice } from "@kb/data";
+import { errorNotice } from "@kb/data";
 
 export default function NotFound() {
   return (
-    <Layout title={notice.name}>
+    <Layout title={errorNotice.name}>
       <article>
-        <h1>{notice.name}</h1>
+        <h1>{errorNotice.name}</h1>
         <p>
           <Link to="/" className="button">
-            {notice.text}
+            {errorNotice.text}
           </Link>
         </p>
       </article>

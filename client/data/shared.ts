@@ -1,10 +1,10 @@
-type Menu = {
+type NavMenu = {
   key: number;
   name: string;
   slug: string;
 };
 
-export const menu: Menu[] = [
+export const navMenu: NavMenu[] = [
   {
     key: 1,
     name: "About",
@@ -22,24 +22,24 @@ export const menu: Menu[] = [
   },
 ];
 
-type Notice = {
+type ErrorNotice = {
   name: string;
   text: string;
 };
 
-export const notice: Notice = {
+export const errorNotice: ErrorNotice = {
   name: "404 Page Not Found",
   text: "Return to Home",
 };
 
-type Article = {
+type MockArticle = {
   id: number;
   url: string;
   title: string;
   description: string;
 };
 
-export const article: Article[] = [
+export const mockArticle: MockArticle[] = [
   {
     id: 1,
     url: "https://astro.build",
@@ -66,7 +66,7 @@ export const article: Article[] = [
   },
 ];
 
-export const drawer: Menu[] = [
+export const drawer: NavMenu[] = [
   {
     key: 1,
     slug: "/",

@@ -6,7 +6,7 @@ import Drawer from "./drawer";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { menu } from "@kb/data";
+import { navMenu } from "@kb/data";
 
 export default function Header() {
   const currentPath = usePathname();
@@ -22,7 +22,7 @@ export default function Header() {
         <span className="sr-only">Next.js</span>
       </Link>
       <nav className="links">
-        {menu.map((item) =>
+        {navMenu.map((item) =>
           currentPath === item.slug ? (
             <Link href={item.slug} key={item.key} className="link" aria-current="page">
               {item.name}

@@ -1,18 +1,18 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { notice } from "@kb/data";
+import { errorNotice } from "@kb/data";
 
 export const metadata: Metadata = {
-  title: notice.name,
+  title: errorNotice.name,
 };
 
 export default function NotFound() {
   return (
     <article>
-      <h1>{notice.name}</h1>
+      <h1>{errorNotice.name}</h1>
       <p>
         <Link href="/" className="button">
-          {notice.text}
+          {errorNotice.text}
         </Link>
       </p>
     </article>
