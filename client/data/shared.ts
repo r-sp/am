@@ -50,7 +50,7 @@ export const mockArticle: MockArticle[] = [
     id: 2,
     url: "https://nextjs.org",
     title: "Next.js",
-    description: "The React Framework for the Web.",
+    description: "The React Framework for the Web",
   },
   {
     id: 3,
