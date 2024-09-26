@@ -1,0 +1,10 @@
+.turbo
+.astro
+.next
+
+main.css
+
+README.md
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
