@@ -28,7 +28,6 @@ coverage
 out/
 build
 dist
-base.css
 
 # Debug
 npm-debug.log*

@@ -6,7 +6,7 @@ import About from "~/pages/about";
 import Blog from "~/pages/blog";
 import NotFound from "~/pages/not-found";
 
-import "@kb/style";
+import "@repo/style";
 
 const router = createBrowserRouter([
   {

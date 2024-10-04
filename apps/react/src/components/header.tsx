@@ -3,7 +3,7 @@ import IconMenu from "./icon-menu";
 import Drawer from "./drawer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { navMenu } from "@kb/data";
+import { navMenu } from "@repo/data";
 
 export default function Header() {
   const currentPath = new URL(import.meta.url).pathname;

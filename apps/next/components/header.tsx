@@ -6,7 +6,7 @@ import Drawer from "./drawer";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { navMenu } from "@kb/data";
+import { navMenu } from "@repo/data";
 
 export default function Header() {
   const currentPath = usePathname();

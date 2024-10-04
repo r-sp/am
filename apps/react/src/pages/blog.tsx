@@ -1,5 +1,5 @@
 import Layout from "~/components/layout";
-import { mockArticle } from "@kb/data";
+import { mockArticle } from "@repo/data";
 
 export default function Blog() {
   return (
