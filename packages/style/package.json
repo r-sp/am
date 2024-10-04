@@ -1,5 +1,5 @@
 {
-  "name": "@kb/style",
+  "name": "@repo/style",
   "private": true,
   "main": "main.css",
   "scripts": {
