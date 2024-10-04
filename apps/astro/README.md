@@ -2,8 +2,8 @@
 
 ```sh
 # to run astro only
-turbo run dev --filter=@kb/astro
+turbo run dev --filter=astro
 
 # apply shared styles
-turbo run dev --filter=@kb/astro --filter=@kb/style
+turbo run dev --filter=astro --filter=@repo/style
 ```

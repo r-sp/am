@@ -2,8 +2,8 @@
 
 ```sh
 # to run next.js only
-turbo run dev --filter=@kb/next
+turbo run dev --filter=next
 
 # apply shared styles
-turbo run dev --filter=@kb/next --filter=@kb/style
+turbo run dev --filter=next --filter=@repo/style
 ```
