@@ -1,5 +1,5 @@
 import IconClose from "./icon-close";
-import { drawer } from "@kb/data";
+import { drawer } from "@repo/data";
 import Link from "next/link";
 
 interface Props {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { mockArticle } from "@kb/data";
+import { mockArticle } from "@repo/data";
 
 export const metadata: Metadata = {
   title: "Blog",

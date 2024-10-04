@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { errorNotice } from "@kb/data";
+import { errorNotice } from "@repo/data";
 
 export const metadata: Metadata = {
   title: errorNotice.name,
