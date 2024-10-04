@@ -1,5 +1,5 @@
 {
-  "name": "@kb/data",
+  "name": "@repo/data",
   "private": true,
   "main": "shared.ts",
   "type": "module",
